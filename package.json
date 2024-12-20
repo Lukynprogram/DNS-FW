@@ -1,0 +1,19 @@
+{
+  "name": "realizace-backendu-lukynprogram",
+  "version": "1.0.0",
+  "description": "Backend for DNS Firewall",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
+
